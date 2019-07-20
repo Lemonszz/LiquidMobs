@@ -1,11 +1,10 @@
 {
-	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "saw",
-		"1": "saw_top",
-		"2": "furnace_top",
-		"3": "glass",
-		"particle": "saw"
+		"0": "liquidmobs:blocks/saw",
+		"1": "liquidmobs:blocks/saw_top",
+		"2": "minecraft:blocks/furnace_top",
+		"3": "minecraft:blocks/glass",
+		"particle": "minecraft:blocks/furnace_top"
 	},
 	"elements": [
 		{
@@ -85,11 +84,11 @@
 			"to": [15, 17, 8],
 			"faces": {
 				"north": {"uv": [0, 0, 14, 6], "texture": "#0"},
-				"east": {"uv": [0, 0, 0, 6], "texture": "#missing"},
+				"east": {"uv": [0, 0, 0, 6], "texture": "#0"},
 				"south": {"uv": [0, 0, 14, 6], "texture": "#0"},
-				"west": {"uv": [0, 0, 0, 6], "texture": "#missing"},
-				"up": {"uv": [0, 0, 14, 0], "texture": "#missing"},
-				"down": {"uv": [0, 0, 14, 0], "texture": "#missing"}
+				"west": {"uv": [0, 0, 0, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 14, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 14, 0], "texture": "#0"}
 			}
 		},
 		{

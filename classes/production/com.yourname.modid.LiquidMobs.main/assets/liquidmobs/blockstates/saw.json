@@ -1,0 +1,19 @@
+
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "liquidmobs:saw",
+    "uvlock": false
+  },
+  "variants": {
+    "rotated":
+    {
+      "true": {"y" :  0},
+      "false": {"y" :  90}
+    },
+    "inventory":
+    {
+      "transform": "forge:default-block"
+    }
+  }
+}
